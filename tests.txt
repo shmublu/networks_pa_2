@@ -1,0 +1,921 @@
+gnnode.py Test 1:
+(base) shmublu@shmublu:/mnt/c/Users/samue/OneDrive/Documents/Python/Networks/PA2$ python3 gbnnode.py 2223 1112 3 -p 0.9
+node> [1682049758.0412521] packet0 h discarded.
+[1682049758.0412965] Packet1 received, however transmission is not undergoing
+[1682049758.0413072] Packet2 received, however transmission is not undergoing
+[1682049758.5423386] packet0 h discarded.
+[1682049758.5423982] Packet1 received, however transmission is not undergoing
+[1682049758.5424714] Packet2 received, however transmission is not undergoing
+[1682049759.0576663] packet0 h discarded.
+[1682049759.0577908] Packet1 received, however transmission is not undergoing
+[1682049759.0578885] Packet2 received, however transmission is not undergoing
+[1682049759.5716808] packet0 h discarded.
+[1682049759.571791] Packet1 received, however transmission is not undergoing
+[1682049759.5718853] Packet2 received, however transmission is not undergoing
+[1682049760.111006] packet0 h discarded.
+[1682049760.11115] Packet1 received, however transmission is not undergoing
+[1682049760.1112828] Packet2 received, however transmission is not undergoing
+[1682049760.625936] packet0 h received
+[1682049760.6262417] ACK0 sent, expecting packet1
+[1682049760.626351] packet1 e received
+[1682049760.626501] ACK1 sent, expecting packet2
+[1682049760.6265912] packet2 l discarded.
+[1682049760.62709] packet3 l discarded.
+[1682049761.1290288] packet1 e discarded.
+[1682049761.1291857] packet2 l discarded.
+[1682049761.129236] packet3 l discarded.
+[1682049761.65308] packet1 e discarded.
+[1682049761.6532426] packet2 l discarded.
+[1682049761.6533263] packet3 l discarded.
+[1682049762.1925762] packet1 e discarded.
+[1682049762.192737] packet2 l discarded.
+[1682049762.192801] packet3 l discarded.
+[1682049762.7266197] packet1 e discarded.
+[1682049762.7266948] packet2 l discarded.
+[1682049762.726767] packet3 l discarded.
+[1682049763.229094] packet1 e discarded.
+[1682049763.229365] packet2 l discarded.
+[1682049763.2296305] packet3 l discarded.
+[1682049763.733123] packet1 e discarded.
+[1682049763.7332807] packet2 l discarded.
+[1682049763.7333727] packet3 l discarded.
+[1682049764.234691] packet1 e discarded.
+[1682049764.2349482] packet2 l discarded.
+[1682049764.2350278] packet3 l received
+[1682049764.2352371] ACK1 sent, expecting packet2 0
+[1682049764.2353668] packet4 o received
+[1682049764.2354753] ACK1 sent, expecting packet2 1
+[1682049764.7445521] packet2 l discarded.
+[1682049764.7446475] packet3 l discarded.
+[1682049764.7447045] packet4 o discarded.
+[1682049765.2567482] packet2 l discarded.
+[1682049765.2569966] packet3 l received
+[1682049765.2573376] ACK1 sent, expecting packet2 0
+[1682049765.2574508] packet4 o discarded.
+[1682049765.76163] packet2 l discarded.
+[1682049765.7617216] packet3 l discarded.
+[1682049765.7619393] packet4 o discarded.
+[1682049766.2895699] packet2 l discarded.
+[1682049766.2897537] packet3 l discarded.
+[1682049766.2900054] packet4 o discarded.
+[1682049766.7994576] packet2 l discarded.
+[1682049766.7996006] packet3 l discarded.
+[1682049766.79969] packet4 o discarded.
+[1682049767.3142607] packet2 l received
+[1682049767.314524] ACK2 sent, expecting packet3
+[1682049767.314619] packet3 l discarded.
+[1682049767.3146906] packet4 o discarded.
+[1682049767.8525152] packet2 l discarded.
+[1682049767.8525567] packet3 l discarded.
+[1682049767.8526645] packet4 o discarded.
+[1682049768.3555057] packet2 l discarded.
+[1682049768.3556254] packet3 l discarded.
+[1682049768.3557403] packet4 o received
+[1682049768.3560202] ACK2 sent, expecting packet3 1
+[1682049768.8952482] packet2 l discarded.
+[1682049768.8953016] packet3 l discarded.
+[1682049768.895364] packet4 o discarded.
+[1682049769.3983927] packet2 l discarded.
+[1682049769.398622] packet3 l received
+[1682049769.398935] ACK3 sent, expecting packet4
+[1682049769.3990479] packet4 o discarded.
+[1682049769.9295979] packet2 l discarded.
+[1682049769.929656] packet3 l discarded.
+[1682049769.9298134] packet4 o discarded.
+[1682049770.4328432] packet2 l discarded.
+[1682049770.4329782] packet3 l discarded.
+[1682049770.433065] packet4 o discarded.
+[1682049770.9356449] packet2 l discarded.
+[1682049770.9357865] packet3 l received
+[1682049770.9360526] ACK3 sent, expecting packet4 0
+[1682049770.936147] packet4 o discarded.
+[1682049771.471229] packet2 l discarded.
+[1682049771.4713235] packet3 l discarded.
+[1682049771.4713755] packet4 o discarded.
+[1682049771.977606] packet2 l received
+[1682049771.9778032] ACK3 sent, expecting packet4 0
+[1682049771.9778495] packet3 l received
+[1682049771.9778914] ACK3 sent, expecting packet4 0
+[1682049771.9779062] packet4 o discarded.
+[1682049772.5004587] packet4 o discarded.
+[1682049773.0394669] packet4 o discarded.
+[1682049773.5595052] packet4 o discarded.
+[1682049774.0987597] packet4 o discarded.
+[1682049774.6146646] packet4 o discarded.
+[1682049775.1542084] packet4 o discarded.
+[1682049775.6776102] packet4 o discarded.
+[1682049776.2165797] packet4 o discarded.
+[1682049776.7561526] packet4 o discarded.
+[1682049777.2955403] packet4 o discarded.
+[1682049777.8106792] packet4 o discarded.
+[1682049778.3113766] packet4 o discarded.
+[1682049778.8247392] packet4 o discarded.
+[1682049779.325881] packet4 o discarded.
+[1682049779.8603518] packet4 o discarded.
+[1682049780.3610632] packet4 o discarded.
+[1682049780.874306] packet4 o discarded.
+[1682049781.3786225] packet4 o received
+[1682049781.3789184] ACK4 sent, expecting packet5
+[Summary] 82/94 packets discarded, loss rate = 0.8723404255319149
+[1682049781.8908494] Transmission finished, ACK5 sent5
+[1682049782.3920622] Transmission finished, ACK5 sent5
+[1682049782.9021893] Transmission finished, ACK5 sent5
+[1682049783.4029734] Transmission finished, ACK5 sent5
+[1682049783.9074478] Transmission finished, ACK5 sent5
+[1682049784.4386325] Transmission finished, ACK5 sent5
+[1682049784.9465227] Transmission finished, ACK5 sent5
+
+
+(base) shmublu@shmublu:/mnt/c/Users/samue/OneDrive/Documents/Python/Networks/PA2$ python3 gbnnode.py 1112 2223 3 -p 0.9
+node> send hello
+[1682049758.041207] packet0 h sent
+[1682049758.041278] packet1 e sent
+[1682049758.041305] packet2 l sent
+[1682049758.5422049] packet0 h sent
+[1682049758.5423079] packet1 e sent
+[1682049758.5423396] packet2 l sent
+[1682049759.057627] packet0 h sent
+[1682049759.0577705] packet1 e sent
+[1682049759.057899] packet2 l sent
+[1682049759.571659] packet0 h sent
+[1682049759.571792] packet1 e sent
+[1682049759.5718782] packet2 l sent
+[1682049760.1109874] packet0 h sent
+[1682049760.111073] packet1 e sent
+[1682049760.1111193] packet2 l sent
+[1682049760.6258333] packet0 h sent
+[1682049760.6260126] packet1 e sent
+[1682049760.6260915] packet2 l sent
+[1682049760.6265256] ACK0 received, window moves to 1
+[1682049760.6267152] ACK1 discarded.
+[1682049760.6271255] packet3 l sent
+[1682049761.1290152] packet1 e sent
+[1682049761.129153] packet2 l sent
+[1682049761.1292279] packet3 l sent
+[1682049761.6530755] packet1 e sent
+[1682049761.653231] packet2 l sent
+[1682049761.6533337] packet3 l sent
+[1682049762.1925728] packet1 e sent
+[1682049762.1927104] packet2 l sent
+[1682049762.192783] packet3 l sent
+[1682049762.7266026] packet1 e sent
+[1682049762.726696] packet2 l sent
+[1682049762.7267663] packet3 l sent
+[1682049763.2291024] packet1 e sent
+[1682049763.2293775] packet2 l sent
+[1682049763.229647] packet3 l sent
+[1682049763.7330832] packet1 e sent
+[1682049763.7332778] packet2 l sent
+[1682049763.733379] packet3 l sent
+[1682049764.234737] packet1 e sent
+[1682049764.2349463] packet2 l sent
+[1682049764.2350402] packet3 l sent
+[1682049764.2351635] ACK1 received, window moves to 2
+[1682049764.235363] packet4 o sent
+[1682049764.2354703] ACK1 discarded.
+[1682049764.744388] packet2 l sent
+[1682049764.7445734] packet3 l sent
+[1682049764.7446897] packet4 o sent
+[1682049765.2566934] packet2 l sent
+[1682049765.2569606] packet3 l sent
+[1682049765.257136] packet4 o sent
+[1682049765.257399] ACK1 discarded.
+[1682049765.761591] packet2 l sent
+[1682049765.7617943] packet3 l sent
+[1682049765.7619324] packet4 o sent
+[1682049766.289604] packet2 l sent
+[1682049766.2897909] packet3 l sent
+[1682049766.2900002] packet4 o sent
+[1682049766.7993515] packet2 l sent
+[1682049766.799534] packet3 l sent
+[1682049766.7996356] packet4 o sent
+[1682049767.314237] packet2 l sent
+[1682049767.3143783] packet3 l sent
+[1682049767.314436] packet4 o sent
+[1682049767.3145568] ACK2 discarded.
+[1682049767.8524723] packet2 l sent
+[1682049767.8525774] packet3 l sent
+[1682049767.852648] packet4 o sent
+[1682049768.3553803] packet2 l sent
+[1682049768.3554776] packet3 l sent
+[1682049768.3555295] packet4 o sent
+[1682049768.3560095] ACK2 discarded.
+[1682049768.8952224] packet2 l sent
+[1682049768.895312] packet3 l sent
+[1682049768.8953595] packet4 o sent
+[1682049769.398352] packet2 l sent
+[1682049769.3986156] packet3 l sent
+[1682049769.3987803] packet4 o sent
+[1682049769.39896] ACK3 discarded.
+[1682049769.9295206] packet2 l sent
+[1682049769.929687] packet3 l sent
+[1682049769.9298048] packet4 o sent
+[1682049770.4328628] packet2 l sent
+[1682049770.4329698] packet3 l sent
+[1682049770.4330554] packet4 o sent
+[1682049770.9355376] packet2 l sent
+[1682049770.9357042] packet3 l sent
+[1682049770.9357853] packet4 o sent
+[1682049770.9361253] ACK3 discarded.
+[1682049771.4711213] packet2 l sent
+[1682049771.4712343] packet3 l sent
+[1682049771.4713192] packet4 o sent
+[1682049771.9776173] packet2 l sent
+[1682049771.9777315] packet3 l sent
+[1682049771.977799] packet4 o sent
+[1682049771.9779541] ACK3 received, window moves to 4
+[1682049771.9780536] ACK3 discarded.
+[1682049772.500432] packet4 o sent
+[1682049773.0394788] packet4 o sent
+[1682049773.559508] packet4 o sent
+[1682049774.0987785] packet4 o sent
+[1682049774.6146705] packet4 o sent
+[1682049775.1541195] packet4 o sent
+[1682049775.6776233] packet4 o sent
+[1682049776.2166216] packet4 o sent
+[1682049776.756134] packet4 o sent
+[1682049777.2955463] packet4 o sent
+[1682049777.8106852] packet4 o sent
+[1682049778.3113549] packet4 o sent
+[1682049778.8247435] packet4 o sent
+[1682049779.325853] packet4 o sent
+[1682049779.8603094] packet4 o sent
+[1682049780.3610456] packet4 o sent
+[1682049780.8742247] packet4 o sent
+[1682049781.3785899] packet4 o sent
+[1682049781.378855] ACK4 discarded.
+[1682049781.8907182] packet4 o sent
+[1682049781.8908346] ACK5 discarded.
+[1682049782.3918984] packet4 o sent
+[1682049782.3920286] ACK5 discarded.
+[1682049782.9019668] packet4 o sent
+[1682049782.9021704] ACK5 discarded.
+[1682049783.4028316] packet4 o sent
+[1682049783.4030476] ACK5 discarded.
+[1682049783.907072] packet4 o sent
+[1682049783.9073708] ACK5 discarded.
+[1682049784.438492] packet4 o sent
+[1682049784.4386284] ACK5 discarded.
+[1682049784.9461792] packet4 o sent
+[1682049784.9465344] ACK5 received, window moves to 6
+[Summary] 15/19 packets discarded, loss rate = 0.7894736842105263
+
+
+
+
+
+gnnode.py Test 2:
+(base) shmublu@shmublu:/mnt/c/Users/samue/OneDrive/Documents/Python/Networks/PA2$ python3 gbnnode.py 2223 1112 10 -p 0.1
+node> send i hope this works
+[1682049895.318587] packet0 i sent
+[1682049895.3187041] packet1   sent
+[1682049895.3188982] packet2 h sent
+[1682049895.3189833] packet3 o sent
+[1682049895.319054] packet4 p sent
+[1682049895.3191066] packet5 e sent
+[1682049895.319141] packet6   sent
+[1682049895.3192031] packet7 t sent
+[1682049895.3192666] packet8 h sent
+[1682049895.319305] packet9 i sent
+[1682049895.319472] ACK0 received, window moves to 1
+[1682049895.3196187] packet10 s sent
+[1682049895.3196735] ACK0 received, window moves to 1
+[1682049895.3197706] ACK0 received, window moves to 1
+[1682049895.3199484] packet1   sent
+[1682049895.320017] packet2 h sent
+[1682049895.3200374] packet3 o sent
+[1682049895.3200543] packet4 p sent
+[1682049895.3200743] packet5 e sent
+[1682049895.3201] packet6   sent
+[1682049895.3201566] packet7 t sent
+[1682049895.3202162] packet8 h sent
+[1682049895.3202767] packet9 i sent
+[1682049895.320332] packet10 s sent
+[1682049895.3204176] ACK0 received, window moves to 1
+[1682049895.3205135] ACK0 received, window moves to 1
+[1682049895.3206859] packet1   sent
+[1682049895.3207433] packet2 h sent
+[1682049895.320801] packet3 o sent
+[1682049895.3208435] packet4 p sent
+[1682049895.320898] packet5 e sent
+[1682049895.3209512] packet6   sent
+[1682049895.3210025] packet7 t sent
+[1682049895.3210552] packet8 h sent
+[1682049895.3210888] packet9 i sent
+[1682049895.3211432] packet10 s sent
+[1682049895.321203] ACK0 received, window moves to 1
+[1682049895.321416] packet1   sent
+[1682049895.321528] packet2 h sent
+[1682049895.3215904] packet3 o sent
+[1682049895.3216383] packet4 p sent
+[1682049895.3217025] packet5 e sent
+[1682049895.3217664] packet6   sent
+[1682049895.321826] packet7 t sent
+[1682049895.3218877] packet8 h sent
+[1682049895.3219476] packet9 i sent
+[1682049895.3219879] packet10 s sent
+[1682049895.322051] ACK0 received, window moves to 1
+[1682049895.3221886] packet1   sent
+[1682049895.32224] packet2 h sent
+[1682049895.3222716] packet3 o sent
+[1682049895.3223026] packet4 p sent
+[1682049895.3223329] packet5 e sent
+[1682049895.322363] packet6   sent
+[1682049895.322401] packet7 t sent
+[1682049895.32246] packet8 h sent
+[1682049895.3225183] packet9 i sent
+[1682049895.3225644] packet10 s sent
+[1682049895.3226073] ACK1 received, window moves to 2
+[1682049895.3228328] packet11   sent
+[1682049895.3229132] ACK2 received, window moves to 3
+[1682049895.323111] packet12 w sent
+[1682049895.3231974] ACK2 received, window moves to 3
+[1682049895.3232892] ACK2 received, window moves to 3
+[1682049895.3234663] packet3 o sent
+[1682049895.323522] packet4 p sent
+[1682049895.3235807] packet5 e sent
+[1682049895.3236365] packet6   sent
+[1682049895.3237095] packet7 t sent
+[1682049895.3237648] packet8 h sent
+[1682049895.32382] packet9 i sent
+[1682049895.3238776] packet10 s sent
+[1682049895.3239324] packet11   sent
+[1682049895.3239813] packet12 w sent
+[1682049895.3240554] ACK2 received, window moves to 3
+[1682049895.3241382] ACK2 received, window moves to 3
+[1682049895.3243291] packet3 o sent
+[1682049895.324407] packet4 p sent
+[1682049895.3244786] packet5 e sent
+[1682049895.3245363] packet6   sent
+[1682049895.3245919] packet7 t sent
+[1682049895.3246515] packet8 h sent
+[1682049895.3246987] packet9 i sent
+[1682049895.3247554] packet10 s sent
+[1682049895.3248105] packet11   sent
+[1682049895.3248672] packet12 w sent
+[1682049895.3249485] ACK2 received, window moves to 3
+[1682049895.325071] packet3 o sent
+[1682049895.3251324] packet4 p sent
+[1682049895.3251863] packet5 e sent
+[1682049895.3252368] packet6   sent
+[1682049895.3252878] packet7 t sent
+[1682049895.325332] packet8 h sent
+[1682049895.3253796] packet9 i sent
+[1682049895.325427] packet10 s sent
+[1682049895.325448] packet11   sent
+[1682049895.3254967] packet12 w sent
+[1682049895.3255508] ACK2 received, window moves to 3
+[1682049895.3255973] ACK3 received, window moves to 4
+[1682049895.325782] packet4 p sent
+[1682049895.3258438] packet5 e sent
+[1682049895.3258994] packet6   sent
+[1682049895.325953] packet7 t sent
+[1682049895.3260145] packet8 h sent
+[1682049895.3260562] packet9 i sent
+[1682049895.3261123] packet10 s sent
+[1682049895.326155] packet11   sent
+[1682049895.3261828] packet12 w sent
+[1682049895.3262398] packet13 o sent
+[1682049895.326308] ACK4 received, window moves to 5
+[1682049895.3264897] packet14 r sent
+[1682049895.3265674] ACK4 received, window moves to 5
+[1682049895.326703] packet5 e sent
+[1682049895.32677] packet6   sent
+[1682049895.326821] packet7 t sent
+[1682049895.326876] packet8 h sent
+[1682049895.326942] packet9 i sent
+[1682049895.3269882] packet10 s sent
+[1682049895.327022] packet11   sent
+[1682049895.3270748] packet12 w sent
+[1682049895.3271272] packet13 o sent
+[1682049895.3271809] packet14 r sent
+[1682049895.3272603] ACK4 received, window moves to 5
+[1682049895.3273318] ACK4 received, window moves to 5
+[1682049895.3273568] ACK4 received, window moves to 5
+[1682049895.327463] packet5 e sent
+[1682049895.3275175] packet6   sent
+[1682049895.3275762] packet7 t sent
+[1682049895.327615] packet8 h sent
+[1682049895.32765] packet9 i sent
+[1682049895.3277056] packet10 s sent
+[1682049895.327762] packet11   sent
+[1682049895.3278177] packet12 w sent
+[1682049895.3278756] packet13 o sent
+[1682049895.3279288] packet14 r sent
+[1682049895.3279955] ACK4 received, window moves to 5
+[1682049895.3281221] packet5 e sent
+[1682049895.3281898] packet6   sent
+[1682049895.3282444] packet7 t sent
+[1682049895.3282878] packet8 h sent
+[1682049895.3283417] packet9 i sent
+[1682049895.3283947] packet10 s sent
+[1682049895.3284469] packet11   sent
+[1682049895.328484] packet12 w sent
+[1682049895.3285475] packet13 o sent
+[1682049895.328598] packet14 r sent
+[1682049895.3286715] ACK4 received, window moves to 5
+[1682049895.328809] ACK5 discarded.
+[1682049895.3288608] packet5 e sent
+[1682049895.3290288] packet6   sent
+[1682049895.329083] packet7 t sent
+[1682049895.329141] packet8 h sent
+[1682049895.329202] packet9 i sent
+[1682049895.3292634] packet10 s sent
+[1682049895.3293233] packet11   sent
+[1682049895.3293686] packet12 w sent
+[1682049895.3294127] packet13 o sent
+[1682049895.3294709] packet14 r sent
+[1682049895.3295624] ACK6 received, window moves to 7
+[1682049895.3296423] ACK6 received, window moves to 7
+[1682049895.3298266] packet7 t sent
+[1682049895.3298726] packet8 h sent
+[1682049895.3299274] packet9 i sent
+[1682049895.3299832] packet10 s sent
+[1682049895.3300252] packet11   sent
+[1682049895.330059] packet12 w sent
+[1682049895.330113] packet13 o sent
+[1682049895.3301663] packet14 r sent
+[1682049895.3302202] packet15 k sent
+[1682049895.330261] packet16 s sent
+[1682049895.3303444] ACK6 received, window moves to 7
+[1682049895.3305373] packet7 t sent
+[1682049895.3306057] packet8 h sent
+[1682049895.3306816] packet9 i sent
+[1682049895.3307395] packet10 s sent
+[1682049895.330796] packet11   sent
+[1682049895.330849] packet12 w sent
+[1682049895.3308792] packet13 o sent
+[1682049895.3309376] packet14 r sent
+[1682049895.330993] packet15 k sent
+[1682049895.3310258] packet16 s sent
+[1682049895.331108] ACK6 received, window moves to 7
+[1682049895.3312867] packet7 t sent
+[1682049895.3313909] packet8 h sent
+[1682049895.3314583] packet9 i sent
+[1682049895.3315144] packet10 s sent
+[1682049895.331546] packet11   sent
+[1682049895.3316019] packet12 w sent
+[1682049895.3316545] packet13 o sent
+[1682049895.3317106] packet14 r sent
+[1682049895.3317592] packet15 k sent
+[1682049895.3318133] packet16 s sent
+[1682049895.33189] ACK6 received, window moves to 7
+[1682049895.3320866] packet7 t sent
+[1682049895.3322055] packet8 h sent
+[1682049895.3322642] packet9 i sent
+[1682049895.332318] packet10 s sent
+[1682049895.3323846] packet11   sent
+[1682049895.332418] packet12 w sent
+[1682049895.3324766] packet13 o sent
+[1682049895.332534] packet14 r sent
+[1682049895.332593] packet15 k sent
+[1682049895.3326461] packet16 s sent
+[1682049895.332703] ACK6 received, window moves to 7
+[1682049895.3329828] packet7 t sent
+[1682049895.333051] packet8 h sent
+[1682049895.3331084] packet9 i sent
+[1682049895.3331668] packet10 s sent
+[1682049895.3332233] packet11   sent
+[1682049895.3332837] packet12 w sent
+[1682049895.3333442] packet13 o sent
+[1682049895.3334002] packet14 r sent
+[1682049895.333457] packet15 k sent
+[1682049895.3335092] packet16 s sent
+[1682049895.3335736] ACK6 received, window moves to 7
+[1682049895.3337777] packet7 t sent
+[1682049895.3338394] packet8 h sent
+[1682049895.3338892] packet9 i sent
+[1682049895.3339422] packet10 s sent
+[1682049895.3340037] packet11   sent
+[1682049895.3340604] packet12 w sent
+[1682049895.3341181] packet13 o sent
+[1682049895.334178] packet14 r sent
+[1682049895.3342555] packet15 k sent
+[1682049895.3343139] packet16 s sent
+[1682049895.3343964] ACK7 received, window moves to 8
+[1682049895.3345623] ACK8 received, window moves to 9
+[1682049895.3346355] ACK8 discarded.
+[1682049895.3347452] ACK8 received, window moves to 9
+[1682049895.334812] ACK8 received, window moves to 9
+[1682049895.3349023] ACK8 discarded.
+[1682049895.3350377] packet9 i sent
+[1682049895.3352187] packet10 s sent
+[1682049895.3353052] packet11   sent
+[1682049895.3353796] packet12 w sent
+[1682049895.3354073] packet13 o sent
+[1682049895.3354301] packet14 r sent
+[1682049895.3354568] packet15 k sent
+[1682049895.3354783] packet16 s sent
+[1682049895.3355374] ACK8 received, window moves to 9
+[1682049895.3356369] ACK8 received, window moves to 9
+[1682049895.3358078] packet9 i sent
+[1682049895.3359146] packet10 s sent
+[1682049895.3359733] packet11   sent
+[1682049895.3360307] packet12 w sent
+[1682049895.336087] packet13 o sent
+[1682049895.33614] packet14 r sent
+[1682049895.3361948] packet15 k sent
+[1682049895.3362658] packet16 s sent
+[1682049895.3363304] ACK9 received, window moves to 10
+[1682049895.336481] ACK10 received, window moves to 11
+[1682049895.336591] ACK10 received, window moves to 11
+[1682049895.336664] ACK10 received, window moves to 11
+[1682049895.336837] packet11   sent
+[1682049895.3373585] packet12 w sent
+[1682049895.3374116] packet13 o sent
+[1682049895.3374922] packet14 r sent
+[1682049895.3378072] packet15 k sent
+[1682049895.3378541] packet16 s sent
+[1682049895.338045] ACK10 received, window moves to 11
+[1682049895.3381262] ACK10 received, window moves to 11
+[1682049895.3383434] packet11   sent
+[1682049895.3384373] packet12 w sent
+[1682049895.3385162] packet13 o sent
+[1682049895.338609] packet14 r sent
+[1682049895.3386521] packet15 k sent
+[1682049895.3387141] packet16 s sent
+[1682049895.3388066] ACK10 received, window moves to 11
+[1682049895.3391125] packet11   sent
+[1682049895.3391783] packet12 w sent
+[1682049895.3392172] packet13 o sent
+[1682049895.339252] packet14 r sent
+[1682049895.3392825] packet15 k sent
+[1682049895.3393126] packet16 s sent
+[1682049895.339366] ACK10 received, window moves to 11
+[1682049895.3395855] packet11   sent
+[1682049895.3396425] packet12 w sent
+[1682049895.339681] packet13 o sent
+[1682049895.3397105] packet14 r sent
+[1682049895.3397732] packet15 k sent
+[1682049895.3398259] packet16 s sent
+[1682049895.3398738] ACK11 received, window moves to 12
+[1682049895.3399386] ACK12 discarded.
+[1682049895.340045] ACK12 received, window moves to 13
+[1682049895.3401816] ACK12 received, window moves to 13
+[1682049895.3402653] ACK12 received, window moves to 13
+[1682049895.3404498] packet13 o sent
+[1682049895.3405046] packet14 r sent
+[1682049895.3405523] packet15 k sent
+[1682049895.3406157] packet16 s sent
+[1682049895.340675] ACK12 received, window moves to 13
+[1682049895.3407612] ACK12 received, window moves to 13
+[1682049895.3408356] ACK12 received, window moves to 13
+[1682049895.3411] packet13 o sent
+[1682049895.3412244] packet14 r sent
+[1682049895.3412907] packet15 k sent
+[1682049895.3413532] packet16 s sent
+[1682049895.3414474] ACK12 received, window moves to 13
+[1682049895.3416202] packet13 o sent
+[1682049895.3420427] packet14 r sent
+[1682049895.3423376] packet15 k sent
+[1682049895.342586] packet16 s sent
+[1682049895.3426926] ACK12 received, window moves to 13
+[1682049895.3427315] ACK12 received, window moves to 13
+[1682049895.3427508] ACK12 received, window moves to 13
+[1682049895.3427663] ACK12 received, window moves to 13
+[1682049895.342781] ACK12 received, window moves to 13
+[1682049895.3427963] ACK13 received, window moves to 14
+[1682049895.3428302] ACK14 received, window moves to 15
+[1682049895.3428693] ACK14 received, window moves to 15
+[1682049895.3428905] ACK14 received, window moves to 15
+[1682049895.3429043] ACK14 received, window moves to 15
+[1682049895.3429182] ACK14 received, window moves to 15
+[1682049895.342931] ACK14 received, window moves to 15
+[1682049895.3429449] ACK14 received, window moves to 15
+[1682049895.34296] ACK14 received, window moves to 15
+[1682049895.3429732] ACK14 received, window moves to 15
+[1682049895.3430102] ACK14 received, window moves to 15
+[1682049895.343047] ACK14 discarded.
+[1682049895.3430843] ACK14 received, window moves to 15
+[1682049895.343103] ACK14 received, window moves to 15
+[1682049895.3431163] ACK14 discarded.
+[1682049895.3431306] ACK14 received, window moves to 15
+[1682049895.3431454] ACK14 received, window moves to 15
+[1682049895.3432193] ACK14 received, window moves to 15
+[1682049895.3432436] ACK14 received, window moves to 15
+[1682049895.3441176] packet15 k sent
+[1682049895.344318] packet16 s sent
+[1682049895.3445685] ACK14 received, window moves to 15
+[1682049895.3446968] ACK14 received, window moves to 15
+[1682049895.3447208] ACK14 received, window moves to 15
+[1682049895.3447397] ACK14 discarded.
+[1682049895.3449616] packet15 k sent
+[1682049895.3450317] packet16 s sent
+[1682049895.3451164] ACK14 received, window moves to 15
+[1682049895.3452775] packet15 k sent
+[1682049895.3453515] packet16 s sent
+[1682049895.3454316] ACK14 received, window moves to 15
+[1682049895.3455236] ACK14 received, window moves to 15
+[1682049895.3457012] packet15 k sent
+[1682049895.3457687] packet16 s sent
+[1682049895.345859] ACK14 received, window moves to 15
+[1682049895.3459826] ACK14 discarded.
+[1682049895.3460107] ACK14 received, window moves to 15
+[1682049895.3462105] ACK14 discarded.
+[1682049895.3463738] packet15 k sent
+[1682049895.3465264] packet16 s sent
+[1682049895.3465996] ACK14 received, window moves to 15
+[1682049895.3467064] ACK14 received, window moves to 15
+[1682049895.3468828] packet15 k sent
+[1682049895.346942] packet16 s sent
+[1682049895.3470237] ACK14 received, window moves to 15
+[1682049895.3471742] ACK14 received, window moves to 15
+[1682049895.3473504] packet15 k sent
+[1682049895.347407] packet16 s sent
+[1682049895.347453] ACK14 received, window moves to 15
+[1682049895.347635] packet15 k sent
+[1682049895.347718] packet16 s sent
+[1682049895.3477826] ACK14 received, window moves to 15
+[1682049895.3478627] ACK14 received, window moves to 15
+[1682049895.347934] ACK14 discarded.
+[1682049895.3480752] packet15 k sent
+[1682049895.3481493] packet16 s sent
+[1682049895.3482032] ACK14 received, window moves to 15
+[1682049895.3483202] ACK14 discarded.
+[1682049895.3483977] packet15 k sent
+[1682049895.348634] packet16 s sent
+[1682049895.3486915] ACK15 received, window moves to 16
+[1682049895.3488185] ACK16 received, window moves to 17
+[Summary] 11/103 packets discarded, loss rate = 0.10679611650485436
+
+
+gbnnode test 3(Section 2.8):
+(base) shmublu@shmublu:/mnt/c/Users/samue/OneDrive/Documents/Python/Networks/PA2$ python3 gbnnode.py 2222 1111 5 -p 0.1
+node> send abcdefgh
+[1682050051.0196342] packet0 a sent
+[1682050051.0197368] packet1 b sent
+[1682050051.0197947] packet2 c sent
+[1682050051.019829] packet3 d sent
+[1682050051.0199049] packet4 e sent
+[1682050051.534273] packet0 a sent
+[1682050051.5344858] packet1 b sent
+[1682050051.5345867] packet2 c sent
+[1682050051.5349236] packet3 d sent
+[1682050051.5352921] packet4 e sent
+[1682050051.535557] ACK0 received, window moves to 1
+[1682050051.5358317] ACK1 discarded.
+[1682050051.5363574] packet5 f sent
+[1682050051.5366259] ACK2 received, window moves to 3
+[1682050051.5371895] packet6 g sent
+[1682050051.537436] packet7 h sent
+[1682050051.5376601] ACK3 received, window moves to 4
+[1682050051.5380998] ACK4 received, window moves to 5
+[1682050051.5382977] ACK5 received, window moves to 6
+[1682050051.5388134] ACK6 received, window moves to 7
+[1682050051.539093] ACK7 received, window moves to 8
+[Summary] 1/8 packets discarded, loss rate = 0.125
+
+
+
+(base) shmublu@shmublu:/mnt/c/Users/samue/OneDrive/Documents/Python/Networks/PA2$ python3 gbnnode.py 1111 2222 5 -p 0.1
+node> [1682050051.0196087] packet0 a discarded.
+[1682050051.019758] Packet1 received, however transmission is not undergoing
+[1682050051.0198119] Packet2 received, however transmission is not undergoing
+[1682050051.0198288] Packet3 received, however transmission is not undergoing
+[1682050051.0199142] Packet4 received, however transmission is not undergoing
+[1682050051.5342891] packet0 a received
+[1682050051.5347238] ACK0 sent, expecting packet1
+[1682050051.5348594] packet1 b received
+[1682050051.5350604] ACK1 sent, expecting packet2
+[1682050051.5351696] packet2 c received
+[1682050051.5353334] ACK2 sent, expecting packet3
+[1682050051.5354185] packet3 d received
+[1682050051.5355039] ACK3 sent, expecting packet4
+[1682050051.535607] packet4 e received
+[1682050051.535747] ACK4 sent, expecting packet5
+[1682050051.536212] packet5 f received
+[1682050051.5364249] ACK5 sent, expecting packet6
+[1682050051.5371668] packet6 g received
+[1682050051.5375347] ACK6 sent, expecting packet7
+[1682050051.53766] packet7 h received
+[1682050051.5378656] ACK7 sent, expecting packet8
+[Summary] 1/9 packets discarded, loss rate = 0.1111111111111111
+
+
+
+
+###########################################################
+
+DVNODE TESTING
+
+Test 1, from assignment:
+
+(base) shmublu@shmublu:/mnt/c/Users/samue/OneDrive/Documents/Python/Networks/PA2$ python3 dvnode.py 1111 2222 .1 3333 .5
+[1682050325.9065182] Message received from Node 2222 to Node 1111
+[1682050325.9065988] Node 1111 Routing Table
+ - (0.1) -> Node 2222
+ - (0.3) -> Node 3333 ; Next hop -> Node 2222
+ - (0.9) -> Node 4444 ; Next hop -> Node 2222
+[1682050325.907085] Message sent from Node 1111 to Node 2222
+[1682050325.907177] Message received from Node 3333 to Node 1111
+[1682050325.9073892] Message sent from Node 1111 to Node 3333
+[1682050325.90756] Node 1111 Routing Table
+ - (0.1) -> Node 2222
+ - (0.3) -> Node 3333 ; Next hop -> Node 2222
+ - (0.8) -> Node 4444 ; Next hop -> Node 3333
+[1682050325.9076967] Message sent from Node 1111 to Node 2222
+[1682050325.9077573] Message sent from Node 1111 to Node 3333
+[1682050325.9094276] Message received from Node 2222 to Node 1111
+[1682050325.9101424] Message received from Node 3333 to Node 1111
+
+
+(base) shmublu@shmublu:/mnt/c/Users/samue/OneDrive/Documents/Python/Networks/PA2$ python3 dvnode.py 2222 1111 .1 3333 .2 4444 .8
+[1682050325.905925] Message received from Node 4444 to Node 2222
+[1682050325.906014] Node 2222 Routing Table
+ - (0.1) -> Node 1111
+ - (0.2) -> Node 3333
+ - (0.8) -> Node 4444
+[1682050325.9062006] Message sent from Node 2222 to Node 1111
+[1682050325.9062788] Message sent from Node 2222 to Node 3333
+[1682050325.9063652] Message sent from Node 2222 to Node 4444
+[1682050325.906938] Message received from Node 4444 to Node 2222
+[1682050325.9078915] Message received from Node 3333 to Node 2222
+[1682050325.9080877] Node 2222 Routing Table
+[1682050325.9081848] Message received from Node 1111 to Node 2222
+ - (0.1) -> Node 1111
+[1682050325.9085991] Message received from Node 4444 to Node 2222
+ - (0.2) -> Node 3333
+[1682050325.9088895] Message received from Node 1111 to Node 2222
+ - (0.7) -> Node 4444 ; Next hop -> Node 3333
+[1682050325.9093184] Message sent from Node 2222 to Node 1111
+[1682050325.9093897] Message sent from Node 2222 to Node 3333
+[1682050325.9095452] Message sent from Node 2222 to Node 4444
+[1682050325.9104612] Message received from Node 3333 to Node 2222
+
+
+
+(base) shmublu@shmublu:/mnt/c/Users/samue/OneDrive/Documents/Python/Networks/PA2$ python3 dvnode.py 3333 1111 .5 2222 .2 4444 .5
+[1682050325.906057] Message received from Node 4444 to Node 3333
+[1682050325.9061422] Node 3333 Routing Table
+ - (0.5) -> Node 1111
+ - (0.2) -> Node 2222
+ - (0.5) -> Node 4444
+[1682050325.9065952] Message sent from Node 3333 to Node 1111
+[1682050325.9066913] Message received from Node 2222 to Node 3333
+[1682050325.9068842] Message sent from Node 3333 to Node 2222
+[1682050325.9070907] Message received from Node 4444 to Node 3333
+[1682050325.907393] Message sent from Node 3333 to Node 4444
+[1682050325.9081893] Message received from Node 1111 to Node 3333
+[1682050325.9082382] Node 3333 Routing Table
+[1682050325.9085386] Message received from Node 4444 to Node 3333
+ - (0.3) -> Node 1111 ; Next hop -> Node 2222
+ - (0.2) -> Node 2222
+ - (0.5) -> Node 4444
+[1682050325.9092832] Message received from Node 1111 to Node 3333
+[1682050325.9095573] Message received from Node 2222 to Node 3333
+[1682050325.91003] Message sent from Node 3333 to Node 1111
+[1682050325.9101164] Message sent from Node 3333 to Node 2222
+[1682050325.9101913] Message sent from Node 3333 to Node 4444
+
+
+
+python3 dvnode.py 4444 2222 .8 3333 .5 last
+[1682050325.9056454] Message sent from Node 4444 to Node 2222
+[1682050325.9057703] Message sent from Node 4444 to Node 3333
+[1682050325.9065146] Message received from Node 2222 to Node 4444
+[1682050325.9065807] Node 4444 Routing Table
+ - (0.8) -> Node 2222
+ - (0.5) -> Node 3333
+ - (0.9) -> Node 1111 ; Next hop -> Node 2222
+[1682050325.906791] Message sent from Node 4444 to Node 2222
+[1682050325.9068773] Message sent from Node 4444 to Node 3333
+[1682050325.9074466] Message received from Node 3333 to Node 4444
+[1682050325.9074697] Node 4444 Routing Table
+ - (0.7) -> Node 2222 ; Next hop -> Node 3333
+ - (0.5) -> Node 3333
+ - (0.9) -> Node 1111 ; Next hop -> Node 2222
+[1682050325.9076238] Message sent from Node 4444 to Node 2222
+[1682050325.907704] Message sent from Node 4444 to Node 3333
+[1682050325.9095871] Message received from Node 2222 to Node 4444
+[1682050325.9103286] Message received from Node 3333 to Node 4444
+
+
+
+TEST 2- I added a thread that changes the weight value of 4444<>5555 from 0.8 to 1.0 at t=5 in order to see how it would propogate
+python3 dvnode.py 1111 3333 .5
+[1682056601.606907] Message received from Node 3333 to Node 1111
+[1682056601.6072845] Node 1111 Routing Table
+ - (0.5) -> Node 3333
+ - (0.6) -> Node 2222 ; Next hop -> Node 3333
+ - (0.9) -> Node 4444 ; Next hop -> Node 3333
+ - (1.7000000000000002) -> Node 5555 ; Next hop -> Node 3333
+[1682056601.6079578] Message sent from Node 1111 to Node 3333
+[1682056606.628169] Message received from Node 3333 to Node 1111
+[1682056606.628355] Node 1111 Routing Table
+ - (0.5) -> Node 3333
+ - (0.6) -> Node 2222 ; Next hop -> Node 3333
+ - (0.9) -> Node 4444 ; Next hop -> Node 3333
+ - (1.9) -> Node 5555 ; Next hop -> Node 3333
+
+
+
+
+ python3 dvnode.py 2222 4444 .3 3333 .1
+[1682056601.6036425] Message received from Node 4444 to Node 2222
+[1682056601.6037757] Node 2222 Routing Table
+ - (0.3) -> Node 4444
+ - (0.1) -> Node 3333
+ - (1.1) -> Node 5555 ; Next hop -> Node 4444
+[1682056601.6045365] Message sent from Node 2222 to Node 4444
+[1682056601.6047559] Message sent from Node 2222 to Node 3333
+[1682056601.6059961] Message received from Node 3333 to Node 2222
+[1682056601.6061] Node 2222 Routing Table
+ - (0.3) -> Node 4444
+ - (0.1) -> Node 3333
+ - (1.1) -> Node 5555 ; Next hop -> Node 4444
+ - (0.6) -> Node 1111 ; Next hop -> Node 3333
+[1682056601.6065118] Message sent from Node 2222 to Node 4444
+[1682056606.6264362] Message received from Node 4444 to Node 2222
+[1682056606.6266418] Node 2222 Routing Table
+ - (0.3) -> Node 4444
+ - (0.1) -> Node 3333
+ - (1.3) -> Node 5555 ; Next hop -> Node 4444
+ - (0.6) -> Node 1111 ; Next hop -> Node 3333
+[1682056606.6269183] Message sent from Node 2222 to Node 3333
+
+
+
+(base) shmublu@shmublu:/mnt/c/Users/samue/OneDrive/Documents/Python/Networks/PA2$ python3 dvnode.py 3333 1111 .5 2222 0.1
+[1682056601.6050992] Message received from Node 2222 to Node 3333
+[1682056601.6052501] Node 3333 Routing Table
+ - (0.5) -> Node 1111
+ - (0.1) -> Node 2222
+ - (0.4) -> Node 4444 ; Next hop -> Node 2222
+ - (1.2000000000000002) -> Node 5555 ; Next hop -> Node 2222
+[1682056601.6055796] Message sent from Node 3333 to Node 1111
+[1682056601.605717] Message sent from Node 3333 to Node 2222
+[1682056601.608135] Message received from Node 1111 to Node 3333
+[1682056606.6272528] Message received from Node 2222 to Node 3333
+[1682056606.6274111] Node 3333 Routing Table
+ - (0.5) -> Node 1111
+ - (0.1) -> Node 2222
+ - (0.4) -> Node 4444 ; Next hop -> Node 2222
+ - (1.4) -> Node 5555 ; Next hop -> Node 2222
+[1682056606.6278336] Message sent from Node 3333 to Node 1111
+
+
+
+
+(base) shmublu@shmublu:/mnt/c/Users/samue/OneDrive/Documents/Python/Networks/PA2$ python3 dvnode.py 4444 2222 .3 5555 .8
+[1682056601.6023698] Message received from Node 5555 to Node 4444
+[1682056601.6024516] Node 4444 Routing Table
+ - (0.3) -> Node 2222
+ - (0.8) -> Node 5555
+[1682056601.6029723] Message sent from Node 4444 to Node 2222
+[1682056601.603155] Message sent from Node 4444 to Node 5555
+[1682056601.604156] Message received from Node 5555 to Node 4444
+[1682056601.6045704] Message received from Node 2222 to Node 4444
+[1682056601.604741] Node 4444 Routing Table
+ - (0.3) -> Node 2222
+ - (0.8) -> Node 5555
+ - (0.4) -> Node 3333 ; Next hop -> Node 2222
+[1682056601.6049848] Message sent from Node 4444 to Node 5555
+[1682056601.6067314] Message received from Node 2222 to Node 4444
+[1682056601.6068342] Node 4444 Routing Table
+ - (0.3) -> Node 2222
+ - (0.8) -> Node 5555
+ - (0.4) -> Node 3333 ; Next hop -> Node 2222
+ - (0.8999999999999999) -> Node 1111 ; Next hop -> Node 2222
+[1682056601.6071959] Message sent from Node 4444 to Node 5555
+[1682056606.6248856] Node 4444 Routing Table
+ - (0.3) -> Node 2222
+ - (1.0) -> Node 5555
+ - (0.4) -> Node 3333 ; Next hop -> Node 2222
+[1682056606.6254535] Message received from Node 5555 to Node 4444
+ - (0.8999999999999999) -> Node 1111 ; Next hop -> Node 2222
+[1682056606.6261199] Message sent from Node 4444 to Node 2222
+[1682056606.6262848] Message sent from Node 4444 to Node 5555
+
+
+
+(base) shmublu@shmublu:/mnt/c/Users/samue/OneDrive/Documents/Python/Networks/PA2$ python3 dvnode.py 5555 4444 .8 last
+[1682056601.6020634] Message sent from Node 5555 to Node 4444
+[1682056601.6034725] Message received from Node 4444 to Node 5555
+[1682056601.6035812] Node 5555 Routing Table
+ - (0.8) -> Node 4444
+ - (1.1) -> Node 2222 ; Next hop -> Node 4444
+[1682056601.603961] Message sent from Node 5555 to Node 4444
+[1682056601.60525] Message received from Node 4444 to Node 5555
+[1682056601.6053157] Node 5555 Routing Table
+ - (0.8) -> Node 4444
+ - (1.1) -> Node 2222 ; Next hop -> Node 4444
+ - (1.2000000000000002) -> Node 3333 ; Next hop -> Node 4444
+[1682056601.6074097] Message received from Node 4444 to Node 5555
+[1682056601.60748] Node 5555 Routing Table
+ - (0.8) -> Node 4444
+ - (1.1) -> Node 2222 ; Next hop -> Node 4444
+ - (1.2) -> Node 3333 ; Next hop -> Node 4444
+ - (1.7) -> Node 1111 ; Next hop -> Node 4444
+[1682056606.6245105] Node 5555 Routing Table
+ - (1.0) -> Node 4444
+ - (1.3) -> Node 2222 ; Next hop -> Node 4444
+ - (1.4) -> Node 3333 ; Next hop -> Node 4444
+ - (1.9) -> Node 1111 ; Next hop -> Node 4444
+[1682056606.6247914] Message sent from Node 5555 to Node 4444
+[1682056606.62655] Message received from Node 4444 to Node 5555
+[1682056606.6266606] Node 5555 Routing Table
+ - (1.0) -> Node 4444
+ - (1.3) -> Node 2222 ; Next hop -> Node 4444
+ - (1.4) -> Node 3333 ; Next hop -> Node 4444
+ - (1.9) -> Node 1111 ; Next hop -> Node 4444
+
